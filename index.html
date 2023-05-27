@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flinx Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/9d863a81f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+         <nav>
+            <img src="images/logo/FLINX-removebg-preview.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </nav> 
+
+          <div class="header-text">
+            <p>UI/UX Designer & Illustrator </p>
+            <h1>HI I Am <span>Opeloyeru <br>Samuel</span> Famously <br> 
+                known as Flinx  </h1>
+          </div>
+
+        </div>
+    </div>
+
+  <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg">
+                </div>
+                <div class="about-col-2">
+                 
+                 <h1 class="sub-title "> About Me</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam quod autem alias beatae adipisci sequi. Vel sapiente nesciunt
+                    iusto illo ab eaque quam voluptate cumque, adipisci eius 
+                    doloremque libero nulla iusto illo ab eaque quam voluptate cumque, adipisci eius 
+                    doloremque libero nulla.
+                 </p>
+
+                  <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+
+
+
+                 <div class="tab-contents active-tab" id="skills">
+                       <ul>
+                           <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                           <li><span>Illustator</span><br>Proficiency with asthethics<br>and design concepts</li>
+                           <li><span>Graphic Designer</span><br>Designing visually appealing product<br> advertisements for products</li>
+                       </ul>
+                  </div>
+
+
+                           
+                  
+                  <div class="tab-contents" id="experience">
+                        <ul>
+                          <li><span>Work Experience</span><br>None Officially For now</li>
+                          <li><span>Work Experience</span><br>None Officially For now</li>
+                          <li><span>Work Experience</span><br>None Officially For now</li>
+                        </ul>   
+                  </div>
+
+
+
+                          
+                  <div class="tab-contents" id="education">
+                       <ul>
+                           <li><span>2012 -2018</span><br> Nigerian Navy secondary School</li>
+                           <li><span>Work Experience</span><br>None Officially For now</li>
+                       </ul>
+                  </div>
+
+
+                </div>
+            </div>
+        </div>
+  </div>
+  <!-- services -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title "> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero a accusantium possimus 
+                consequuntur quas pariatur excepturi, temporibus qui cumque quod labore sunt voluptatibus at </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Adobe illustrator </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero a accusantium possimus 
+                consequuntur quas pariatur excepturi, temporibus qui cumque quod labore sunt voluptatibus at </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fab fa-app-store"></i>
+                <h2>Graphic  Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero a accusantium possimus 
+                consequuntur quas pariatur excepturi, temporibus qui cumque quod labore sunt voluptatibus at </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+        
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                 <img src="images/about.jpeg">
+                 <div class="layer">
+                    <h3>Car Renting Website</h3>
+                    <p>The website that connects you to available Luxury care for 
+                  any occasions around the world. </p>
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/about.jpeg">
+                <div class="layer">
+                    <h3>Car Renting Website</h3>
+                    <p>The website that connects you to available Luxury care for 
+                  any occasions around the world. </p>
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+           </div>
+           <div class="work">
+            <img src="images/about.jpeg">
+            <div class="layer">
+                <h3>Car Renting Website</h3>
+                <p>The website that connects you to available Luxury care for 
+              any occasions around the world. </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+             </div>
+       </div>
+        </div>
+    </div>
+  </div>
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+       for( tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+       for( tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+
+</body>
+</html>

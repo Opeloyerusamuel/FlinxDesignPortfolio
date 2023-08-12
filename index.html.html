@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flinx Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/9d863a81f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+         <nav>
+            <img src="images/logo/FLINX-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+         </nav> 
+
+          <div class="header-text"> 
+            <p>UI/UX Designer & Illustrator </p>
+            <h1>HI I Am <span>Opeloyeru <br>Samuel</span> Famously <br> 
+                known as Flinx  </h1>
+          </div>
+
+        </div>
+    </div>
+
+  <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg">
+                </div>
+                <div class="about-col-2">
+                 
+                 <h1 class="sub-title "> About Me</h1>
+                 <p class="new"> I am a UI/UX and Graphics Designer and i love creating visually appealing designs,
+                    Im Passionate about crafting meaningful digital experiences that blend aesthetics and functionality.<br> 
+                    With a background in [relevant fields or education], I'm dedicated to putting users at the heart of design,<br>
+                     creating interfaces that are intuitive, engaging, and visually appealing.
+
+                   <br>🛠️ Expertise:
+                   Bringing together a blend of creativity and technical skills, I specialize in creating wireframes, prototypes,
+                    and polished designs using industry-standard tools like Adobe XD, Figma, and Sketch.<br> I excel at understanding user behavior, 
+                   conducting research, and translating insights into design decisions that elevate products.
+                 </p>
+
+                  <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+
+
+
+                 <div class="tab-contents active-tab" id="skills">
+                       <ul>
+                           <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                           <li><span>Illustator</span><br>Proficiency with asthethics<br>and design concepts</li>
+                           <li><span>Graphic Designer</span><br>Designing visually appealing product<br> advertisements for products</li>
+                       </ul>
+                  </div>
+
+
+                           
+                  
+                  <div class="tab-contents" id="experience">
+                        <ul>
+                          <li><span>Work Experience</span><br>Worked on a Mobile App called Design Drive </li>
+                          <li><span>Work Experience</span><br>Worked on a Mobile App  called Londrich </li>
+    
+                        </ul>   
+                  </div>
+
+
+
+                          
+                  <div class="tab-contents" id="education">
+                       <ul>
+                           <li><span>2012 -2018</span><br> Nigerian Navy secondary School</li>
+                           
+                       </ul>
+                  </div>
+
+
+                </div>
+            </div>
+        </div>
+  </div>
+  <!-- services -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title "> My Services</h1>
+        <div class="services-list">
+            <div class="Text1">
+                <i class="fas fa-vector-square"></i>
+                <h2>UI/UX Design</h2>
+                <p>I specializes in crafting the visual and interactive elements of digital products and experiences. They are skilled in combining aesthetics
+                  and functionality to ensure that users have a seamless and enjoyable interaction with websites, mobile apps, and other digital platforms. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="Text2">
+                <i class="fas fa-crop"></i>
+                <h2>Adobe illustrator </h2>
+                <p> I Use a combination of shapes, lines, colors, and gradients, and crafts intricate and visually striking designs. 
+                   Whether it's crafting detailed illustrations, vector graphics, logos, icons, or other forms of digital artwork, my expertise
+                   in Adobe Illustrator allows me to produce scalable and high-quality visuals suitable for a wide range of applications.. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="Text3">
+              <i class="fas fa-pen-nib"></i>
+                <h2>Graphic  Design</h2>
+                <p> From designing eye-catching posters, brochures, and packaging to creating engaging social media graphics and logos,<span>
+                   their work involves integrating their unique illustrative style into the broader context of graphic design. </span> 
+                   I bring an extra layer of visual intrigue to their projects, often incorporating custom illustrations that infuse 
+                   personality and uniqueness into their designs. </p>
+                <a class="Learn" href="#"> Learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+        
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                 <img class="workimage" src="images/tic tac.jpg">
+                 <div class="layer">
+                    <h3>Car Renting Website</h3>
+                    <p>The website that connects you to available Luxury care for 
+                  any occasions around the world. </p>
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/about.jpeg">
+                <div class="layer">
+                    <h3>Car Renting Website</h3>
+                    <p>The website that connects you to available Luxury care for 
+                  any occasions around the world. </p>
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+           </div>
+           <div class="work">
+            <img src="images/about.jpeg">
+            <div class="layer">
+                <h3>Car Renting Website</h3>
+                <p>The website that connects you to available Luxury care for 
+              any occasions around the world. </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+             </div>
+       </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+<!-- Contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>opelyerusamuel23@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>08147733233</p>
+        
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="images/INK GATE.docx" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2 ">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+    <div class="copyright">
+      <p> Copyright ©  samuel. Portflio Website <i class="fas fa-heart"></i> website</p>
+    </div>
+  </div>
+</div>
+
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+       for( tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+       for( tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab")
+  }
+
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzjIwzLgJbpE433ys5-psOiwKF010MTJ0CBqCX1HkfDxywLgWgiYeLQimCz10Lf00kuZg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+         msg.innerHTML ="Message sent successfully"
+         setTimeout(function(){
+          msg.innerHTML = ""
+         },5000)
+         form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>

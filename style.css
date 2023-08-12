@@ -389,6 +389,7 @@ nav .fas{
     }
     .sub-title{
         font-size: 40px;
+        
     }
     .about-col-1,.about-col-2{
         flex-basis:100%;
@@ -414,4 +415,22 @@ nav .fas{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+.Text1{
+  line-height: 1.6;   
+}
+.Text2{
+    line-height: 1.6;
+}
+.Text3{
+    line-height: 1.6;
+}
+.Learn{
+    font-size: large;
+}
+.new{
+    line-height: 1.6;
+}
+.workimage{
+    
 }
